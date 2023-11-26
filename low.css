@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
+header {
+    background-image: url('/bg/2.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hightitle {
+    text-align: center;
+    font-size: 60px;
+    color: rgb(252, 252, 252);
+    font-family: 'Reggae One';
+}
+
+.nav-list {
+    font-size: 60px;
+    list-style-type: none;
+    padding-top: 70px;
+    padding-left: 70px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-family: 'Reggae One';
+    color: rgb(255, 0, 0);
+    transition: color 0.5s linear;
+}
+
+.nav-list a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/* price */
+
+.bg-video-main {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.bg-video-main video {
+    height: 90vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.bg-content {
+    z-index: 2;
+    position: absolute;
+}
+
+.cards {
+    display: flex;
+    position: relative;
+    margin-left: 260px;
+    margin-top: 150px;
+}
+/* 1 */
+.card-one {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: rgb(112, 13, 13);
+    font-family: 'Reggae One';
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Noto Serif Japanese'; 
+}
+
+.price-btn {
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Reggae One';
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 5%;
+    transition: 0.3s linear;
+}
+
+.price-btn:hover {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+/* 2 */
+.card-two {
+    left: 500px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: rgb(13, 15, 112);
+    font-family: 'Reggae One';
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Noto Serif Japanese'; 
+}
+
+.price-btn-two {
+    margin-top: 3px;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Reggae One';
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 5%;
+    transition: 0.3s linear;
+}
+
+.price-btn-two:hover {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+/* 3 */
+.card-three {
+    left: 1000px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Reggae One';
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Noto Serif Japanese';
+}
+
+.price-btn-three {
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Reggae One';
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 5%;
+    transition: 0.3s linear;
+}
+
+.price-btn-three:hover {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+
+/* catalog */
+
+.container-one {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 180vh;
+}
+
+.catalog-text {
+    padding-top: 50px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Reggae One';
+}
+
+/* part-catalog-one */
+
+.cards-catalog {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    top: 50px;
+}
+
+.card-catalog-one {
+    background-color: rgb(240, 248, 255);
+}
+
+.card-catalog-one h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Reggae One';
+    font-weight: 700;
+}
+
+.card-catalog-one-btn {
+    background-color: blue;
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 10%;
+    font-family: 'Reggae One';
+    font-weight: 700;
+    margin-left: 75px;
+    transition: 0.4s linear;
+    cursor:pointer;
+}
+
+.card-catalog-one-btn:hover {
+    background-color: red;
+}
+
+
+.card-catalog-two {
+    background-color: rgb(240, 248, 255);
+}
+.card-catalog-two h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Reggae One';
+    font-weight: 700;
+}
+
+.card-catalog-three {
+    background-color: rgb(240, 248, 255);
+}
+
+.card-catalog-three h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Reggae One';
+    font-weight: 700;
+}
+
+
+
+/* part-catalog-two */
+
+.cards-catalog-two {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    top: 150px;
+}
+
+.card-catalog-two-one {
+    background-color: aliceblue;
+}
+
+.card-catalog-two-one h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Reggae One';
+    font-weight: 700;
+}
+
+.card-catalog-two-two {
+    background-color: aliceblue;
+}
+
+.card-catalog-two-two h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Reggae One';
+    font-weight: 700;
+}
+
+.card-catalog-two-three {
+    background-color: aliceblue;
+}
+
+.card-catalog-two-three h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Reggae One';
+    font-weight: 700;
+}
+
+/* contacts */
+
+.full-contacts {
+    background-color: black;
+    width: 100%;
+    height: 120vh;
+}
+
+.contact-text-main {
+    color: aliceblue;
+}  
+
+.main {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Reggae One';
+    color: aliceblue;
+}
+
+.main-two {
+    padding-top: 100px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Reggae One';
+}
+
+.contact-map {
+    margin-top: 20px;
+}
+
+.link-contacts h1 {
+    margin-top: 20px;
+    font-size: 40px;
+    color: aliceblue;
+    font-family: 'Reggae One';
+}
+
+.link-contacts h2 {
+    margin-top: 20px;
+    font-size: 40px;
+    color: aliceblue;
+    font-family: 'Reggae One';
+    text-align: center;
+}
+
+.link-contacts img {
+    margin-top: 30px;
+    margin-left: 900px;
+}
+
